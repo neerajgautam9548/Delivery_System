@@ -33,6 +33,7 @@ app.use('/media', express.static(path.join(__dirname, 'public')));
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/content', require('./routes/contentRoutes'));
+app.use('/api/analytics', require('./routes/analyticsRoutes'));
 
 app.get('/', (req, res) => {
   res.send('Adaptive Content API is running');

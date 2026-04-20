@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-brand">
         <Zap color="var(--accent-blue)" size={28} />
-        <h2>Adaptive<span style={{color: 'var(--accent-purple)'}}>Sys</span></h2>
+        <h2>MORPHIX<span style={{color: 'var(--accent-purple)'}}></span></h2>
       </div>
       
       <div className="nav-links">
